@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "投稿テスト"
-date:   2023-12-23 00:16:35 +0900
-categories: jekyll update
+date:   2023-12-23
+categories: 雑文
 ---
 
 ## Jekyllを導入してみた
-GitHub Pages のために昔に作ったリポジトリをほったらかしにしたのに気づき、遊んでみたくなり導入。
-
-どんな感じですかね。
+GitHub Pages のために昔に作ったリポジトリをほったらかしにしていたのに気づき、いろいろいじってみたくなり導入。
