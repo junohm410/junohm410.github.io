@@ -1,6 +1,6 @@
 title: shodan / junohm410
 author: shodan
-email: ''
+email: ""
 description: > # this means to ignore newlines until "show_exerpts:"
   Studying Ruby, Rails | FjordBootCamp
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -27,9 +27,8 @@ texture:
     # linkedIn:
     rss: rss
 
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
+  # If you want to link only specific pages in your header, uncomment
+  # this and add the path to the pages in order as they should show up
   navigation:
     - title: Home
       url: "/"
@@ -42,3 +41,5 @@ theme: texture
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+remote_theme: samarsault/texture
