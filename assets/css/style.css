@@ -1,0 +1,81 @@
+/* HTML Energy inspired minimal styling */
+
+body {
+  font-family: 'Courier New', Monaco, Consolas, monospace;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  line-height: 1.8;
+  background: #fefefe;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom: 0.2em;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+/* キャッチフレーズのスタイル */
+body > p:first-of-type {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 2em;
+  font-size: 1.1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+a:hover {
+  background: #ffffcc;
+  color: #000;
+}
+
+a:visited {
+  color: #8b008b;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em 0;
+}
+
+/* HTML Energy inspired footer text */
+body > p:last-of-type {
+  font-size: 0.9em;
+  color: #888;
+  font-style: italic;
+}

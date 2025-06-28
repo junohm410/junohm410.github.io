@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>投稿テスト - shodan</title>
+    <meta name="description" content="投稿テスト" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/logo.png" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <a href="../index.html">..</a>
+
+    <article>
+      <p>
+        <time datetime="2024-07-31">2024-07-31</time>
+      </p>
+
+      <h1>投稿テスト</h1>
+
+      <h2>投稿テスト</h2>
+
+      <p>どんな感じで表示されるのかのテストです。</p>
+
+      <h3>リスト</h3>
+      <ul>
+        <li>リスト1</li>
+        <li>リスト2</li>
+        <li>リスト3</li>
+      </ul>
+
+      <h3>引用と脚注</h3>
+
+      <p>安達哲『さくらの唄』</p>
+
+      <blockquote>
+        <p>最初から 自分信じて やってれば 良かったのよ</p>
+      </blockquote>
+
+      <h3>画像</h3>
+
+      <p>横長画像</p>
+      <img src="/assets/images/articles/IMG_0586.JPG" alt="横長" />
+
+      <h3>コード</h3>
+      <h4>コードブロック</h4>
+
+      <pre><code>
+# frozen_string_literal: true
+
+class Comment < ApplicationRecord
+  belongs_to :item
+  belongs_to :user
+
+  validates :content, presence: true
+end
+      </code></pre>
+
+      <h4>インラインコード</h4>
+
+      <p><code>const hoge = 'fuga';</code></p>
+    </article>
+  </body>
+</html>
